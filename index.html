@@ -2,10 +2,65 @@
 <html>
   <head>
     <title>Marvel Movie List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow"/>
+    <style>
+      html{
+        background-color:#96b5ca9f;
+      }
+
+      body{
+        font-family:"Courier New";
+        max-width:620px; 
+        background-color:#ffffff;
+        width:90%;
+        margin:0 auto;
+        padding:3.5%
+      }
+
+      nav{
+			  text-align:center; /* centers the nav */
+	  	}
+		
+      nav ul {
+          list-style:none; /* removes the bullets */
+        }
+      nav ul li
+        {
+          display:inline-block; /* makes horizontal, but able to declare margins */
+          margin:0 2%; /* margin left-right, gets smaller as necessary */
+        }
+      nav a:hover{
+        text-decoration: none;
+	  	}	
+
+      footer{
+        text-align:center;
+        clear:both;
+      }
+    </style>
   </head>
   <body>
+    <header>
       <h1>Marvel Movie List</h1>
+      <!-- Put nav below here  -->
+
+	<nav>
+    <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 5</a></li>
+      <li><a href="#">Link 6</a></li>
+    </ul>
+  </nav>
+
+    </header>
       <p>Here is a list of released and upcoming Marvel movies.</p>
+
+
+
       <p>Movie Lists</p>
       <p>Released Marvel Movies
       <p>
@@ -59,6 +114,9 @@
 </tr>
 
 </table>
+<footer>
+  &copy; 2021 Marvel Movie List
+</footer>
 
   </body>
 </html> 
